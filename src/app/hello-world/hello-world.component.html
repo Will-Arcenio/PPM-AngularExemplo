@@ -1,0 +1,9 @@
+<h1>Hello World!</h1>
+<p>
+    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" [value]="nome" (change)="setNome($event)">
+    <br>
+    <button (click)="helloWorld()">Confirmar</button>
+</p>
+<p>
+    {{helloWorldMessage}}
+</p>
