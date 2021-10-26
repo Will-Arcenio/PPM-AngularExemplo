@@ -1,6 +1,6 @@
 <h1>Hello World!</h1>
 <p>
-    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" [value]="nome" (change)="setNome($event)">
+    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" [(ngModel)]="nome">
     <br>
     <button (click)="helloWorld()">Confirmar</button>
 </p>
